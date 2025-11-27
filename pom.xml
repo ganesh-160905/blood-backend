@@ -111,6 +111,8 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.lifelinelink.backend.BackendApplication</mainClass>
+                    <excludeDevtools>true</excludeDevtools>
+                    <layers>false</layers> <!-- Disable layers for external Tomcat -->
                 </configuration>
             </plugin>
 
